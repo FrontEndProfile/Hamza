@@ -26,7 +26,7 @@ header img {
 }
 .card img {
     width: 100px;
-    mix-blend-mode: multiply;
+    mix-blend-mode: all;
 }
 .card.two {
     background-color: rgb(95, 18, 18);
