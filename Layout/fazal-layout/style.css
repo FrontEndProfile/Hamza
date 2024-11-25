@@ -1,0 +1,36 @@
+*,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    background-color: indianred;
+    padding: 30px;
+}
+header h1 {
+    color: black;
+    text-align: center;
+}
+.card {
+    background-color: tomato;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card.two {
+    background: orange;
+}
+.card.three {
+    background: lightcoral;
+}
+
+footer {
+    padding: 30px;
+    background-color: rgb(218, 34, 34);
+    text-align: center;
+}
