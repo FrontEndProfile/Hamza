@@ -1,0 +1,56 @@
+/* cdn font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*,body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+
+  font-family: "DM Sans", sans-serif;
+}
+.hero { 
+}
+.hero-head {
+    color: #1E0E62;
+    font-size: 45px;
+    line-height: 52px;
+    text-align: center;
+}
+.hero-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.hero-btn1 {
+    color: aliceblue;
+    background-color: #E93A7D;
+    border: none;
+    border-radius: 100px;
+    padding: 17px 46px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+.hero-btn2 {
+    color: #1E0E62;
+    padding: 17px 42px;
+    border: none;
+    background-color: aliceblue;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 100px;
+}
+.hero-img {
+    margin-top: 180px;
+    width: 100%;
+}
+.hero-text {
+    color: #15143966;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css sizing unit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12em;
+        }
+
+        .box {
+            box-sizing: border-box;
+            background-color: aquamarine;
+            border: 2px solid black;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .container {
+            box-sizing: border-box;
+            background-color: aquamarine;
+            border: 2px solid black;
+            margin: 23px auto;
+            font-size: 16px;
+            width: 80vw;
+            height: 80vh;
+        }
+
+        .container p {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        this is a box
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa aspernatur nulla esse consectetur
+            velit officia fugiat libero, accusamus quam voluptatem omnis tempora est minima sequi nostrum alias
+            incidunt. Error?</p>
+
+    </div>
+</body>
+
+</html>
