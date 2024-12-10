@@ -1,0 +1,69 @@
+@import url("font.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Code Pro", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #272A2B;
+}
+
+.card {
+    width: 576px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    background-color: #FFFFFF;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.63px;
+    color: #000000;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.6px;
+    color: #3C3C43;
+    padding: 6px;
+}
+
+
+.card-line {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    height: 2px;
+    background-color: #E6E6E6;
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+    color: #666666CC;
+    letter-spacing: -4%;
+    padding: 18px;
+}
+
+.p-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+    letter-spacing: -0.04%;
+    padding: 18px;
+}
+

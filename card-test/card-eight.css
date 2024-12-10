@@ -1,0 +1,36 @@
+@import url("font.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Code Pro", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #272A2B;
+}
+
+.card {
+    width: 276px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.63px;
+    color: #000000;
+    padding: 24px;
+}
+
+.pic {
+    width: 100%;
+    display: block;
+}
