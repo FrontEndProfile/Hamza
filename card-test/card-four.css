@@ -27,14 +27,15 @@ body {
     font-size: 18px;
     line-height: 22.63px;
     color: #000000;
+    margin-bottom: 4px;
 }
 
-.card-headingtwo {
+.card-subheading {
     font-weight: 400;
     font-size: 16px;
     line-height: 20.11px;
     color: #3C3C43;
-    margin-top: 4px;
+    margin-bottom: 24px;
 }
 
 .card-text {
@@ -42,28 +43,23 @@ body {
     font-size: 14px;
     line-height: 17.6px;
     color: #666666;
-    margin-top: 24px;
 }
 
-.card-btntwo {
+.card-btn {
     font-weight: 400;
     font-size: 12px;
+    margin-top: 24px;
+    border: 1px;
+    padding: 8px 12px;
+    border-radius: 100px;
+    width: 82px;
+}
+
+.white {
     color: #3C3C43;
-    margin-top: 24px;
-    border: 1px;
-    padding: 8px 12px;
-    border-radius: 100px;
-    width: 82px;
 }
 
-.card-btnone {
-    font-weight: 400;
-    font-size: 12px;
-    color: #FFFFFF;
+.black {
+    color: white;
     background-color: #3C3C43;
-    margin-top: 24px;
-    border: 1px;
-    padding: 8px 12px;
-    border-radius: 100px;
-    width: 82px;
 }

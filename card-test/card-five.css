@@ -20,22 +20,42 @@ body {
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
 }
 
 
 .pic {
     width: 100%;
     display: block;
+
+}
+
+.card-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.08px;
+    background-color: #3C3C43;
+    color: #FFFFFF;
+    width: 52px;
+    border: 1px;
+    padding: 8px;
+    gap: 10px;
+    display: flex;
+    position: absolute;
+   left: 234px;
+   top: 18px;
+    border-radius: 100%;
 }
 .card-body {
     padding: 24px;
+    margin-bottom: 24px;
 }
 .card-heading {
     font-weight: 500;
     font-size: 18px;
     line-height: 22.63px;
     color: #000000;
-    margin-top: 24px;
+    margin-bottom: 6px;
 }
 
 .card-text {
@@ -43,5 +63,4 @@ body {
     font-size: 14px;
     line-height: 17.6px;
     color: #666666;
-    margin-top: 6px;  
 }

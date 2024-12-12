@@ -21,32 +21,32 @@ body {
     padding: 24px;
     background-color: #FFFFFF;
 }
+
 .card-heading {
     font-weight: 500;
     font-size: 18px;
     line-height: 22.63px;
     color: #000000;
+    margin-bottom: 4px;
 }
+
 .card-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 17.6px;
-    color: #666666; 
-    margin-top: 4px;
+    color: #666666;
+    margin-bottom: 24px;
 }
-.pic {
+
+.card-images {
+
+border-radius: 12px;
+display: flex;
+gap: 18px;
+flex-wrap: wrap;
+
+
+}.card-image {
     width: 119px;
-    margin-top: 24px;
-}
-.pic-two {
-    width: 119px; 
-    margin-top: 24px;
-}
-.pic-three {
-    width: 119px;
-    margin-top: 24px;
-}
-.pic-four {
-    width: 119px;
-    margin-top: 24px;
+
 }
